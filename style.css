@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quintessential', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*navigation*/
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type:none;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background: #643a79;
+    transition: transform 2s;
+    padding: 5px 5px;
+    border-radius: 5px;
+    color: white;
+    transition:background 1.2s;
+}
+
+/*--header--*/
+
+.container{
+    max-width: 1920px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col{
+    text-align: center;
+}
+
+.col h1{
+    font-size: 42px;
+    margin: 25px 0;
+    color: white;
+}
+
+.row .btn{
+    display: inline-block;
+    background: #eb7d4b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 1.2s;
+}
+
+.row .btn:hover{
+    background: #1dd7f0;
+}
+
+.header{
+    background: #87509c;
+    padding-top: 50px;
+}
+
+.header .row{
+    margin-top: 70px;
+}
+
+/*--service--*/
+
+.pop h2{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    letter-spacing: 4px;
+}
+
+.pop h2::before{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 80px;
+    background: #14a58c;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pop p{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.service{
+    background: #17c2a4;
+    padding: 50px;
+}
+
+.service .container{
+    max-height: 1920px;
+}
+
+.flexbox{
+    max-width: 1080px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.flexbox-item{
+   width: 250px;
+   height: 400px;
+   margin: 10px;
+   text-align: center;
+   padding: 20px 20px 20px;
+   flex-direction: column;
+}
+
+.flexbox-item h3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.flexbox-item p{
+    color: white;
+}
+
+.img-wrapper{
+    height: 150px;
+}
+
+/*--team--*/
+
+.none h2{
+    position: relative;
+    text-align: center;
+    color: #878787;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.none h2::before{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 80px;
+    background: #878787;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.none p{
+    text-align: center;
+    padding-top: 20px;
+    color: #878787;
+}
+
+.team{
+    background: #e7f1f8;
+    max-height: 1920px;
+    max-width: 1920px;
+}
+
+.oneplus .flexbox .flexbox-item h3{
+    color: #5f6371;
+    padding-bottom: 5px;
+    font-size: 24px;
+}
+
+.oneplus .flexbox .flexbox-item h4{
+    color: #8cd1ee;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.oneplus .flexbox .flexbox-item p{
+    color: #878787;
+}
+
+.oneplus .flexbox .flexbox-item{
+    width: 250px;
+    height: 550px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 20px 20px;
+}
+
+.oneplus .flexbox{
+   max-width: 1080px;
+   display: flex;
+   justify-content: center;
+   padding-top: 40px;
+   margin: auto;
+}
+
+.tri{
+    height: 150px;
+    width: 150px;
+    background: #878787;
+    border-radius: 49%;
+    margin-left: 28px;
+}
+
+.apple{
+    color: #bdd1df;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.fa-brands{
+    font-size: 15px;
+    color: white;
+}
+
+.bb{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    background: #bdd1df;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.fa-solid{
+    font-size: 15px;
+    color: white;
+}
+
+/*--skills--*/
+
+
+.rice h2{
+    position: relative;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.rice h2::before{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 80px;
+    background: #dfe8ed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rice p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.skills .container{
+    max-height: 1920px;
+    max-width: 1920px;
+}
+
+/*--our-portfolio--*/
+
+.our h2{
+    position: relative;
+    text-align: center;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.our h2::before{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 80px;
+    background: #e5c37f;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.our-portfolio{
+    background: #ffdd99;
+}
+
+.our-portfolio .container{
+    max-width: 1920px;
+}
+
+.our nav{
+    text-align: center;
+    flex: 1;
+}
+
+.our nav ul{
+    display: inline-block;
+    list-style-type:none;
+}
+
+.our nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.our nav ul li a{
+    text-decoration: none;
+    color: black;
+    background: #ebc985;
+    padding: 10px 20px 10px;
+    border-radius: 10px;
+}
+
+.our nav ul li a:hover{
+    background: white;
+    transition: transform 2s;
+    padding: 15px 15px 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.our p{
+    text-align: center;
+    padding-bottom: 45px;
+    padding-top: 20px;
+}
+
+.momo .flexbox .flexbox-item{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+}
+
+.momo .flexbox{
+   justify-content: center;
+   padding-top: 40px;
+   margin: auto;
+}
+
+.momo p{
+    color: black;
+}
+
+.momo{
+    text-align: center;
+}
+
+.momo-1 a{
+    background: #17c2a4;
+    color: white;
+    padding: 25px 25px 25px;
+}
+
+.momo-1{
+    padding-top: 50px;
+}
+
+/*--people--*/
+
+.people{
+    background: #d74680;
+    height: auto;
+}
+
+.hello-1 h2{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.hello-1 h2::before{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 80px;
+    background: #b73c6d;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hello-1 p{
+    color: white;
+    text-align: center;
+    padding-top: 22px;
+}
+
+.koko .flexbox .flexbox-item{
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cow{
+    width: 150px;
+    overflow: hidden;
+    height: 110px;
+}
+
+.ox{
+    width: 250px;
+}
+
+.cow .tri{
+    height:90px;
+    width: 90px;
+    background: #878787;
+    border-radius: 49%;
+    margin-left: 28px;
+}
+
+/*--footer--*/
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+
+/*media quary*/
+
+@media(max-width :768px){
+    .flexbox .flexbox-item{
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+    .momo .flexbox .flexbox-item img{
+        width: 400px;
+        height: auto;
+    }
+    .oneplus .flexbox .flexbox-item{
+        flex-direction: column;
+        flex-basis: 50%;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+
+body{
+    overflow: auto;
+}
